@@ -3,9 +3,9 @@ package com.address.book;
 import java.util.Iterator;
 
 import java.util.List;
-public class EditAnExistingContactAddressBookUseCase3 {
 
-    //Declaring variables for Address Book System
+public class DeleteAnExistingContactUseCase4 {
+        //Declaring variables for Address Book System
         private String firstName;
         private String lastName;
         private String address;
@@ -16,11 +16,11 @@ public class EditAnExistingContactAddressBookUseCase3 {
         private String email;
 
         //Creating one default constructor
-        public EditAnExistingContactAddressBookUseCase3() {
+        public DeleteAnExistingContactUseCase4 () {
         }
 
         //Creating one parameterized constructor
-        public EditAnExistingContactAddressBookUseCase3(String firstName, String lastName, String address, String city, String state, String zip, String phoneNumber, String email) {
+        public DeleteAnExistingContactUseCase4 (String firstName, String lastName, String address, String city, String state, String zip, String phoneNumber, String email) {
             setFirstName(firstName);
             setLastName(lastName);
             setAddress(address);
@@ -85,7 +85,7 @@ public class EditAnExistingContactAddressBookUseCase3 {
         }
 
         //Printing contactDetails
-        public void printContact(List<EditAnExistingContactAddressBookUseCase3> list) {
+        public void printContact(List<DeleteAnExistingContactUseCase4 > list) {
             if(!list.isEmpty())
             {
                 System.out.println("Contact details are below.....\n");
